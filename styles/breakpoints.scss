@@ -1,0 +1,598 @@
+// BREAKPOINTS
+
+@media (max-width: 1199.98px) {
+  #content {
+    .esteemed_faculty {
+      .esteemed_faculty_img_right {
+        width: 130px !important;
+        height: 130px !important;
+        border-radius: 90px 30px 90px 90px !important;
+      }
+      .esteemed_faculty_img_left {
+        width: 130px !important;
+        height: 130px !important;
+        border-radius: 90px 30px 90px 90px !important;
+      }
+    } // end of esteemed faculty
+    // student_feedback
+    .student_feedback {
+      h1 {
+        font-size: 24px;
+        font-weight: 700;
+      }
+      p {
+        font-size: 16px;
+      }
+      .student_feedback_row {
+        .student_feedback_box {
+          padding: 15px;
+        }
+        .carousel_buttons {
+          right: 300px;
+        }
+      }
+    }
+    // end of student_feedback
+
+    .free_course {
+      margin: 50px 0 0 0;
+      h1 {
+        font-size: 30px;
+      }
+
+      .free_course_row {
+        width: 100%;
+
+        .btn_modal {
+          width: 60%;
+        }
+      }
+    }
+    //  Enrollment Process
+    .enrollment_process {
+      h1 {
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 21.6px;
+        letter-spacing: -0.800000011920929px;
+      }
+      .enrollment_process_row {
+        h1 {
+          width: 50px;
+          height: 50px;
+          font-family: Lato;
+          font-size: 22px;
+          font-weight: 900;
+
+          &::after {
+            left: -3px !important;
+            transform: rotate(90deg);
+            bottom: -29px;
+            width: 115%;
+          }
+        }
+        p {
+          font-size: 16px;
+
+          text-align: left;
+        }
+        .h1_custom {
+          margin: 0;
+        }
+        .p_custom {
+          display: flex;
+          align-items: center;
+        }
+      }
+    }
+    // end of  Enrollment Process
+  }
+}
+@media (max-width: 991px) {
+  .title_span {
+    transform: rotate(0deg);
+    padding: 0px 50px;
+    float: right;
+    position: static;
+  }
+  .navbar_custom_color {
+    background-color: #051238;
+    .nav-link {
+      color: #ffffff;
+      &:focus {
+        color: #ffffff;
+      }
+      &:hover {
+        color: #ffffff;
+      }
+    }
+  }
+  #content {
+    .accordion_item_custom {
+      padding: 24px 10px;
+    }
+
+    // esteemed faculty
+
+    // //  Enrollment Process
+    // .enrollment_process {
+    //   .enrollment_process_row {
+    //     h1 {
+    //       &::after {
+    //         left: 0px !important;
+    //         transform: rotate(90deg);
+    //         bottom: -40px;
+    //         width: 100%;
+    //       }
+    //     }
+    //   }
+    // }
+    // // end of  Enrollment Process
+
+    //  Enrollment Process
+    .enrollment_process {
+      h1 {
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 21.6px;
+        letter-spacing: -0.800000011920929px;
+      }
+      .enrollment_process_row {
+        h1 {
+          width: 50px;
+          height: 50px;
+          font-family: Lato;
+          font-size: 22px;
+          font-weight: 900;
+
+          &::after {
+            left: -3px !important;
+            transform: rotate(90deg);
+            bottom: -29px;
+            width: 115%;
+          }
+        }
+        p {
+          font-size: 16px;
+
+          text-align: left;
+        }
+        .h1_custom {
+          margin: 0;
+        }
+        .p_custom {
+          display: flex;
+          align-items: center;
+        }
+      }
+    }
+    // end of  Enrollment Process
+
+    // student_feedback
+    .student_feedback {
+      h1 {
+        font-size: 24px;
+        font-weight: 700;
+      }
+      p {
+        font-size: 16px;
+      }
+      .student_feedback_row {
+        .student_feedback_box {
+          padding: 15px;
+        }
+        .carousel_buttons {
+          right: 300px;
+        }
+      }
+    }
+    // end of student_feedback
+    .free_course {
+      margin: 50px 0 0 0;
+      h1 {
+        font-size: 30px;
+      }
+
+      .free_course_row {
+        width: 100%;
+
+        .btn_modal {
+          width: 50%;
+        }
+      }
+    }
+    // more info
+    .more_info {
+      .more_info_row {
+        h1 {
+          margin-top: 20px;
+        }
+        .more_info_img {
+          background: #0155f3;
+          border-radius: 16px;
+          width: 70%;
+        }
+        .btn_modal {
+          width: 60%;
+        }
+      }
+    }
+    // end of more info
+  }
+  #footer {
+    text-align: center;
+    .footer_row {
+      .col_custom {
+        display: flex;
+        justify-content: end;
+        padding: 0 20px 0 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 767.98px) {
+  // hiring contest
+  .hiring_contest {
+    .hiring_contest_freelancing {
+      .hiring_contest_row_freelancing {
+        .hiring_contest_col_freelancing {
+          display: flex;
+          justify-content: center;
+          ul {
+            column-count: 1 !important;
+          }
+        }
+      }
+    }
+    .hiring_contest_row_diploma {
+      align-items: center;
+      flex-direction: column-reverse;
+      gap: 20px;
+      .my_img_responsive {
+        padding-right: 0 20px;
+      }
+    }
+
+    .esteemed_faculty {
+      h1 {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 24px;
+      }
+    }
+    //  Enrollment Process
+    .enrollment_process {
+      h1 {
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 21.6px;
+        letter-spacing: -0.800000011920929px;
+      }
+      .enrollment_process_row {
+        h1 {
+          &::after {
+            left: -3px !important;
+            transform: rotate(90deg);
+            bottom: -29px;
+            width: 115%;
+          }
+        }
+      }
+    }
+    // end of  Enrollment Process
+  }
+  // end of hiring contest
+}
+
+@media (max-width: 575.98px) {
+  #banner {
+    .row {
+      .ds_info {
+        margin: 20px auto;
+        h1 {
+          font-size: 32px;
+          font-weight: 700;
+        }
+        .my_img_responsive {
+          width: 80%;
+        }
+      }
+    }
+  }
+  #content {
+    h2 {
+      font-size: 24px;
+    }
+    .award_tech {
+      h2 {
+        font-size: 24px;
+        line-height: 24px;
+      }
+      .carousel_buttons {
+        right: 160px;
+      }
+    }
+    .program_ideal_ticks {
+      gap: 20px;
+    }
+
+    .foundational_learning {
+      .img_foundational {
+        margin: 0 0 0 -16px;
+        padding: 35px;
+      }
+      .foundational_learning_col {
+        h5 {
+          width: 50%;
+        }
+      }
+      .accordion-body {
+        padding: 0;
+      }
+      .accordion_body_box {
+        h1 {
+          font-size: 18px;
+        }
+        p {
+          font-size: 16px;
+        }
+        padding: 40px 10px;
+      }
+    }
+    .hiring_contest {
+      .hiring_contest_freelancing {
+        margin: 30px 0;
+        h1 {
+          font-size: 30px;
+        }
+      }
+      .img_hiring_contest {
+        padding: 35px;
+        margin: 0 0 0 -16px;
+      }
+    }
+    .hiring_contest_diploma {
+      .hiring_contest_row_diploma {
+        margin: 50px 0;
+        flex-wrap: wrap-reverse;
+        font-size: 18px;
+        text-align: center;
+        h1 {
+          text-align: center;
+        }
+        p {
+          text-justify: center;
+        }
+        .my_img_responsive {
+          padding: 0;
+        }
+      }
+    }
+    .esteemed_faculty {
+      h1 {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 24px;
+      }
+    }
+
+    .free_course {
+      margin: 50px 0 0 0;
+      h1 {
+        font-size: 30px;
+      }
+
+      .free_course_row {
+        width: 100%;
+
+        .btn_modal {
+          width: 60%;
+        }
+      }
+    }
+
+    .path_employment {
+      .path_employment_row {
+        .path_employment_box {
+          text-align: center;
+          h1 {
+            margin-top: 50px;
+          }
+          h4 {
+            text-align: start;
+          }
+          ul {
+            text-align: start;
+          }
+        }
+      }
+    }
+
+    .financing_options {
+      h1 {
+        font-size: 30px;
+      }
+      h3 {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 27.8px;
+        text-align: center;
+      }
+      p {
+        font-size: 18px;
+      }
+      .financing_options_accordion {
+        .accordion_item_custom {
+          padding: 0;
+          .accordion_body_custom {
+            p {
+              font-size: 18px;
+              font-weight: 400;
+              span {
+                font-size: 18px;
+                font-weight: 700;
+              }
+            }
+            .accordion_box_body {
+              padding: 40px 15px;
+            }
+          }
+        }
+      }
+    }
+
+    .path_success {
+      .path_box {
+        padding: 45px 10px;
+      }
+      .path_button {
+        padding: 15px;
+      }
+    }
+    .advanced_courses {
+      .advanced_courses_box {
+        padding: 45px 10px;
+      }
+    }
+    .real_projects {
+      .real_projects_box {
+        padding: 45px 10px;
+      }
+    }
+    .plans_changed {
+      padding: 40px 0px;
+      h1 {
+        font-size: 24px;
+        font-weight: 800;
+      }
+      p {
+        font-size: 20px;
+        font-weight: 400;
+      }
+    }
+
+    .student_feedback {
+      h1 {
+        font-size: 24px;
+        font-weight: 700;
+      }
+      p {
+        font-size: 16px;
+      }
+      .student_feedback_row {
+        .student_feedback_box {
+          padding: 15px;
+        }
+      }
+      .student_feedback_row {
+        .carousel_buttons {
+          right: 160px;
+        }
+      }
+    }
+    .community_tech_events {
+      .community_tech_events_box {
+        padding: 48px 10px;
+        .community_tech_events_row {
+          padding: 15px 0 80px 0px;
+          .carousel_buttons {
+            right: 145px;
+          }
+        }
+      }
+    }
+    //  Enrollment Process
+    .enrollment_process {
+      h1 {
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 21.6px;
+        letter-spacing: -0.800000011920929px;
+      }
+      .enrollment_process_row {
+        h1 {
+          width: 50px;
+          height: 50px;
+          font-family: Lato;
+          font-size: 22px;
+          font-weight: 900;
+
+          &::after {
+            left: -3px !important;
+            transform: rotate(90deg);
+            bottom: -29px;
+            width: 115%;
+          }
+        }
+        p {
+          font-size: 16px;
+
+          text-align: left;
+        }
+        .h1_custom {
+          margin: 0;
+        }
+        .p_custom {
+          display: flex;
+          align-items: center;
+        }
+      }
+    }
+    // end of  Enrollment Process
+
+    .more_info {
+      margin: 110px 0;
+      border-radius: 16px;
+      border: 1px solid #05123833;
+      box-shadow: 0px 4px 30px 0px #6577831a;
+      padding: 50px 10px;
+      .more_info_row {
+        align-items: center;
+
+        h1 {
+          font-size: 24px;
+          font-weight: 700;
+        }
+        .btn_modal {
+          width: 60%;
+        }
+      }
+    }
+
+    // Frequently asked question
+    .faq {
+      margin: 0px 0 0 0;
+      h1 {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: -2px;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      .accordion-body {
+        border: none;
+        p {
+          font-family: Manrope;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 19.2px;
+          letter-spacing: -0.012em;
+          text-align: left;
+        }
+      }
+
+      .btn_faq_accordion {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 19.2px;
+        letter-spacing: -0.012em;
+        text-align: left;
+      }
+    }
+
+    // end of Frequently asked question
+  }
+}
